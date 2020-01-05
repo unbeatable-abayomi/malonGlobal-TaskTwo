@@ -1,0 +1,18 @@
+body{
+  overflow-x: hidden;
+}
+
+.flex-item{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: .5rem;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly;
+  /* margin: 1rem; */
+}
