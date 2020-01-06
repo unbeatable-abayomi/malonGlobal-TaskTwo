@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 class Health extends Component {
 	state = {
@@ -30,7 +29,7 @@ class Health extends Component {
 									<img
 										src={post.urlToImage}
 										className="img-fluid"
-										alt="currentlyNoimageForThisNews_Article"
+										alt="No_Image_For_This_News_Article"
 									/>
 									<a href={post.url}> 
 										<h5 className="text-white">{post.title}</h5>
@@ -40,7 +39,7 @@ class Health extends Component {
                                     
                                     
                                     <a href={post.url}> 
-                                    <button>View More Details</button>
+                                    <button className='btn btn-dark'>View More Details</button>
                                     </a>
                                    
 								</div>
@@ -53,7 +52,7 @@ class Health extends Component {
             
             <div>
     
-           <h3>Loading Lastest Health News ....</h3> 
+           <h3>Loading Latest Health News ....</h3> 
            
             </div>
             
@@ -61,7 +60,7 @@ class Health extends Component {
 		return (
             <div>
             <center>
-            <h2> Health Component</h2>
+            <h2> Health Forum</h2>
             
             </center>
                

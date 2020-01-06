@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 
 class Entertainment extends Component {
 	state = {
@@ -30,7 +30,7 @@ class Entertainment extends Component {
 									<img
 										src={post.urlToImage}
 										className="img-fluid"
-										alt="currentlyNoimageForThisNews_Article"
+										alt="No_Image_For_This_News_Article"
 									/>
 									<a href={post.url}> 
 										<h5 className="text-white">{post.title}</h5>
@@ -40,7 +40,7 @@ class Entertainment extends Component {
                                     
                                     
                                     <a href={post.url}> 
-                                    <button>View More Details</button>
+                                    <button className='btn btn-dark'>View More Details</button>
                                     </a>
                                    
 								</div>
@@ -53,7 +53,7 @@ class Entertainment extends Component {
             
             <div>
     
-           <h3>Loading Lastest Entertainment News ....</h3> 
+           <h3>Loading Latest Entertainment News ....</h3> 
            
             </div>
             
@@ -61,7 +61,7 @@ class Entertainment extends Component {
 		return (
             <div>
             <center>
-            <h2> Health Component</h2>
+            <h2>Entertainment Forum</h2>
             
             </center>
                
@@ -70,8 +70,7 @@ class Entertainment extends Component {
                   
                    
                    
-                  {/*https://newsapi.org/v2/top-headlines?country=ng&category=business&apiKey=be1939fe6be743508bdf643a5f4708d0*/}  
-                  {/*https://newsapi.org/v2/top-headlines?country=ng&category=general&apiKey=be1939fe6be743508bdf643a5f4708d0*/}  
+                    
                   {/*https://newsapi.org/v2/everything?q=buhari&apiKey=be1939fe6be743508bdf643a5f4708d0*/} 
                   {/*https://newsapi.org/v2/everything?q=bokoharam&from=2020-01-04&to=2019-11-04&sortBy=popularity&apiKey=be1939fe6be743508bdf643a5f4708d0*/} 
                 </div>

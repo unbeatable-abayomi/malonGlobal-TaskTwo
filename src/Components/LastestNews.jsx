@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 
 class LastestNews extends Component {
 	state = {
@@ -30,7 +30,7 @@ class LastestNews extends Component {
 									<img
 										src={post.urlToImage}
 										className="img-fluid"
-										alt="currentlyNoimageForThisNews_Article"
+										alt="No_Image_For_This_News_Article"
 									/>
 									<a href={post.url}> 
 										<h5 className="text-white">{post.title}</h5>
@@ -53,7 +53,7 @@ class LastestNews extends Component {
             
             <div>
     
-           <h3>Loading LastestNews ....</h3> 
+           <h3>Loading LatestNews ....</h3> 
            
             </div>
             
@@ -61,7 +61,7 @@ class LastestNews extends Component {
 		return (
             <div>
             <center>
-            <h4>Lastest News</h4>
+            <h4>Latest News Forum</h4>
             <h3>Top Headlines</h3>
             
             </center>

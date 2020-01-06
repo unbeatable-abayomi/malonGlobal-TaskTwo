@@ -10,7 +10,7 @@ import React from 'react';
                     <img
                         src={urlToImage}
                         className="img-fluid"
-                        alt="currentlyNoimageForThisNews_Article"
+                        alt="No_Image_For_This_News_Article"
                     />
                     <a href={url}> 
                         <h5 className="text-white">{title}</h5>

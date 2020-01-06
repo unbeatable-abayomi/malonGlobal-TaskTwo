@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 
 class Business extends Component {
 	state = {
@@ -30,7 +30,7 @@ class Business extends Component {
 									<img
 										src={post.urlToImage}
 										className="img-fluid"
-										alt="currentlyNoimageForThisNews_Article"
+										alt="No_Image_For_This_News_Article"
 									/>
 									<a href={post.url}> 
 										<h5 className="text-white">{post.title}</h5>
@@ -40,7 +40,7 @@ class Business extends Component {
                                     
                                     
                                     <a href={post.url}> 
-                                    <button>View More Details</button>
+                                    <button className='btn btn-dark'>View More Details</button>
                                     </a>
                                    
 								</div>
@@ -53,7 +53,7 @@ class Business extends Component {
             
             <div>
     
-           <h3>Loading Business Sports News ....</h3> 
+           <h3>Loading Latest Business News ....</h3> 
            
             </div>
             
@@ -61,7 +61,7 @@ class Business extends Component {
 		return (
             <div>
             <center>
-            <h2>Business Component</h2>
+            <h2>Business Forum</h2>
             
             </center>
                
