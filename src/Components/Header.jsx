@@ -1,12 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 function Test() {
 	return (
 		<div className="container">
 			<div className="jumbotron bg-success">
 				<center>
-					<h1 className="text-white">NairaLand Forum</h1>
+                    
+                    <div className='bg-light cover'>
+                    <img src='../img/logo1.png' className='img-fluid cover-img' alt='logo'/>
+                    </div>
+                    
 				</center>
 
 				<Link className="text-white" to="/">

@@ -16,3 +16,19 @@ ul{
   justify-content: space-evenly;
   /* margin: 1rem; */
 }
+.cover{
+  border-radius: 12px;
+}
+.allnews{
+  display: flex;
+  /* flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-evenly; */
+}
+/* 
+.cover{
+  padding-top: 12px;
+  width: 360px;
+  height: 80px;
+  border-radius: 20px;
+} */

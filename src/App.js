@@ -8,13 +8,16 @@ import Health from './Components/Health';
 import Science from './Components/Science';
 import Sports from './Components/Sports';
 import Technology from './Components/Technology';
+import General from './Components/General';
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
     <div className="App">
-    <Header/> 
+   
+    <Header/>
+    <General/> 
     <Switch>
          <Route exact path='/' component={LastestNews}/>
          <Route  path='/business' component={Business}/>
